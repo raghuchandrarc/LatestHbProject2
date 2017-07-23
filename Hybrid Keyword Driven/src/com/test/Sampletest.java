@@ -28,7 +28,7 @@ public class Sampletest {
 	//public String PathExcel = "F:/rc/Hybrid Keyword Driven/Hybrid Keyword Driven/src/dataEngine/DataEngineSecond.xlsx";
 	public static String setScenario() {
 		String Fpath = " ";
-		
+
 		Properties prop = new Properties();
 		InputStream input = null;
 
@@ -52,12 +52,10 @@ public class Sampletest {
 				}
 			}
 		}
-		System.out.println("assssssssssssssssssss "+Fpath);
-		 
+
 		return Fpath;
 
 	}
-
 
 	@BeforeTest
 	public void startReport(){
@@ -71,7 +69,7 @@ public class Sampletest {
 		extent
                 .addSystemInfo("Host Name", "SoftwareTestingMaterial")
                 .addSystemInfo("Environment", "Automation Testing")
-                .addSystemInfo("User Name", "Raghuxxxx");
+                .addSystemInfo("User Name", "Raghu R.C");
                 //loading the external xml file (i.e., extent-config.xml) which was placed under the base directory
                 //You could find the xml file below. Create xml file in your project and copy past the code mentioned below
                 extent.loadConfig(new File(System.getProperty("user.dir")+"/test-output/extent-config.xml"));
