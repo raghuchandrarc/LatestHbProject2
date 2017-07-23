@@ -1,0 +1,2 @@
+# Login Page Object
+txtbx_UserName=//input[@id='lst-ib']

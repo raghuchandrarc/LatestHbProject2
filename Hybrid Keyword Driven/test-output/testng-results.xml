@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45360" started-at="2017-07-16T09:12:32Z" finished-at="2017-07-16T09:13:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45360" started-at="2017-07-16T09:12:32Z" finished-at="2017-07-16T09:13:17Z">
+      <class name="com.test.Sampletest">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.test.Sampletest@42dafa95]" name="startReport" is-config="true" duration-ms="1094" started-at="2017-07-16T14:42:32Z" finished-at="2017-07-16T14:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="beginTest()[pri:0, instance:com.test.Sampletest@42dafa95]" name="beginTest" duration-ms="43123" started-at="2017-07-16T14:42:33Z" finished-at="2017-07-16T14:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.test.Sampletest@42dafa95]" name="endReport" is-config="true" duration-ms="1086" started-at="2017-07-16T14:43:16Z" finished-at="2017-07-16T14:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.test.Sampletest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
